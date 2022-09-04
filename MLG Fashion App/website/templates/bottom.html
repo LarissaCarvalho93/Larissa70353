@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
+    %}
+        <div class="Categories">
+          
+        
+            <div class="text1">
+              <img src={{ url_for('static', filename="Black Pants.jpg", width="300px")}}/>
+            <p>Black Pants</p>
+             <P>   Size: S / M / L  </P>
+              <P>  Availability: 5 pieces</p>
+                <p>Price: $65</p>
+        </div>
+      
+    <div class="text2">
+      <img src={{ url_for('static', filename="Jeans.jpg", width="300px")}}/>
+            <p>Jeans Pants</p>
+             <P>   Size: S/ M  </P>
+              <P>  Availability: 3 pieces</p>
+                <p>Price: $55</p>
+        </div>
+      
+       
+            <div class="text3">
+              <img src={{ url_for('static', filename="Social Pants.jpg", width="300px")}}/>
+            <p>Social Pants</p>
+             <P>   Size: S / L </P>
+              <P>  Availability: 8 pieces</p>
+                <p>Price: $50</p>
+            </div>
+
+            </div>
+      
+            {% endblock %}

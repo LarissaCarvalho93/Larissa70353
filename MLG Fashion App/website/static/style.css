@@ -1,0 +1,44 @@
+.Categories {
+   border-top: 100px;
+   list-style: none;
+   display:flex;
+   justify-content: space-around;
+   text-align: center;
+   padding-top: 50px;
+   
+}
+
+.nav-item {
+    margin: 0 50px;
+    font-style: inherit;
+}
+
+.btn {
+    background-color: palevioletred;
+    border-color: white;
+    color: white;
+}
+
+h1 {
+    color: palevioletred;
+    font-family: Georgia;
+    padding-top: 20px;
+}
+
+h2 {
+    color: palevioletred;
+    font-family: Georgia;
+    padding-top: 20px;
+}
+
+h3 {
+    color: palevioletred;
+    font-family: Georgia;
+    padding-top: 20px;
+}
+
+
+
+.form-group .input {
+    background-color: pink;
+}

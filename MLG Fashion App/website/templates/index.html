@@ -1,0 +1,36 @@
+{% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
+    %}
+    <center>
+    <img src="{{ url_for('static', filename='logo.png') }}" style="width: 30%" />
+        </center>
+        <div class="time">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        <html xmlns="http://www.w3.org/1999/xhtml">
+       
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Display Current Date &amp; Time</title>
+      
+        
+       
+        
+        <p id="demo"></p>
+        
+        <script>
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d.toUTCString();
+        </script>
+       
+       
+      
+            <div class="About">
+                <h2>About</h2>
+                </div>
+                <div class="duas-colunas">
+               <p>The brand values excellence in the choice of raw materials for the execution of its pieces.
+                The collections move between chic and urban styles, to offer women options that mix elegance with
+                cool glam, also for the casual day-to-day. Our mission is to translate the trends of the world's 
+                catwalks in a democratic way so that they dress women with the glamor they deserve!</p> 
+                </div>
+  
+    
+    {% endblock %}

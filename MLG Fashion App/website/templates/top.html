@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
+    %}
+
+        <div class="Categories">
+          
+            <div class="text1">
+              <img src={{ url_for('static', filename="blusa gola simples elegante.png")}} />
+            <p>Elegant gray collar blouse</p>
+             <P>   Size: S / M  </P>
+              <P>  Availability: 10 pieces</p>
+                <p>Price: $50</p>
+        
+              </div>
+
+    <div class="text2">
+      <img src={{ url_for('static', filename="Blusa-exercito.jpg", width="100px")}} />
+            <p>Exercise shirt</p>
+             <P>   Size: S / M / L </P>
+              <P>  Availability: 12 pieces</p>
+                <p>Price: $35</p>
+       
+            </div>
+
+            <div class="text">
+              <img src={{ url_for('static', filename="top cropped.jpe", width="100px")}}/>
+            <p>Cropped</p>
+             <P>   Size: S / L </P>
+              <P>  Availability: 8 pieces</p>
+                <p>Price: $50</p>
+            </div>
+        </div>    
+    
+{% endblock %}
